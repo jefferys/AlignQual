@@ -1,0 +1,16 @@
+Package: AlignQual
+Type: Package
+Title: SAM/BAM region alignment quality metrics
+Version: 0.0.0.9000
+Authors@R: c(	person( "Stuart", "Jefferys",	
+    email= "srjefferys@gmail.com", role= c( "aut", "cre" ))	
+ )
+Description: Given a sam/bam file, report a variety of quality statistics
+    describing the read alignments to a region. Currently only a single
+    contiguous region is supported, but plan to allow for a collection of
+    regions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: testthat
